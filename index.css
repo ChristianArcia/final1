@@ -21,9 +21,9 @@ html {
 .left-section {
     background-color: #4A708B; /* Azul mate */
     color: white;
-    width: 30%;
+    width: 35%;
     min-height: calc(100vh - 15vh); /* Cubre página menos la imagen de la franja */
-    padding: 20px; /* Aumenta el tamaño del formulario */
+    padding: 40px; /* Aumenta el tamaño del formulario */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,9 +32,8 @@ html {
 
 .right-section {
     background-color: white;
-    width: 70%;
-    padding: 20px; /* Similar al tamaño del formulario */
-    min-height: calc(100vh - 15vh);
+    width: 65%;
+    padding: 40px; /* Similar al tamaño del formulario */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,14 +42,14 @@ html {
 }
 
 .medium-image {
-    max-width: 30%;
+    max-width: 50%;
     height: auto;
 }
 
 .footer {
     text-align: center;
     padding: 0;
-    width: 200%;
+    width: 100%;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -59,7 +58,7 @@ html {
 }
 
 .footer-background {
-    width: 120%;
+    width: 50%;
     height: 100%;
     object-fit: cover; /* Ajusta la imagen para cubrir completamente el área */
 }
@@ -98,7 +97,7 @@ html {
 .login-button {
     background-color: #FFFFFF;
     color: #4A708B;
-    padding: 10px 15px;
+    padding: 10px 20px;
     border: none;
     border-radius: 4px;
     font-size: 1em;
