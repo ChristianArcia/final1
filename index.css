@@ -64,14 +64,14 @@ html {
 }
 
 .title {
-    font-size: 3em; /* Aumenta el tamaño del título */
+    font-size: 3.5em; /* Aumenta aún más el tamaño del título */
     font-weight: bold;
     margin-bottom: 20px;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
 }
 
 .login-heading {
-    font-size: 2em; /* Aumenta el tamaño del encabezado de inicio de sesión */
+    font-size: 2.5em; /* Aumenta más el tamaño del encabezado de inicio de sesión */
     margin-bottom: 20px; /* Aumenta el espacio debajo del encabezado */
 }
 
@@ -83,14 +83,14 @@ html {
 }
 
 .form-label {
-    font-size: 1.3em; /* Aumenta el tamaño de la fuente de las etiquetas del formulario */
+    font-size: 1.5em; /* Aumenta más el tamaño de la fuente de las etiquetas del formulario */
     margin-bottom: 5px;
 }
 
 .form-input {
-    font-size: 1.2em; /* Aumenta el tamaño de la fuente de las entradas del formulario */
+    font-size: 1.5em; /* Aumenta más el tamaño de la fuente de las entradas del formulario */
     width: 90%; /* Aumenta el ancho de las entradas del formulario */
-    padding: 15px;
+    padding: 20px; /* Incrementa el relleno de las entradas */
     border: none;
     border-radius: 4px;
     margin-bottom: 20px; /* Aumenta el espacio debajo de las entradas */
@@ -99,10 +99,10 @@ html {
 .login-button {
     background-color: #FFFFFF;
     color: #4A708B;
-    padding: 15px 30px; /* Incrementa el relleno del botón */
+    padding: 20px 40px; /* Incrementa el relleno del botón */
     border: none;
     border-radius: 4px;
-    font-size: 1.2em; /* Aumenta el tamaño de la fuente del botón */
+    font-size: 1.5em; /* Aumenta más el tamaño de la fuente del botón */
     font-weight: bold;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
     cursor: pointer;
