@@ -60,7 +60,7 @@ html {
 
 .footer-background {
     width: 100%;
-    height: auto;
+    height: 120%;
     object-fit: cover; /* Ajusta la imagen para cubrir completamente el área */
 }
 
