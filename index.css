@@ -21,9 +21,9 @@ html {
 .left-section {
     background-color: #4A708B; /* Azul mate */
     color: white;
-    width: 35%;
+    width: 40%; /* Aumenta el ancho de la sección izquierda */
     min-height: calc(100vh - 15vh); /* Cubre página menos la imagen de la franja */
-    padding: 40px; /* Aumenta el tamaño del formulario */
+    padding: 60px; /* Incrementa el tamaño del formulario */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,7 +32,7 @@ html {
 
 .right-section {
     background-color: white;
-    width: 65%;
+    width: 60%; /* Reduce el ancho de la sección derecha */
     padding: 40px; /* Similar al tamaño del formulario */
     display: flex;
     flex-direction: column;
@@ -42,7 +42,7 @@ html {
 }
 
 .medium-image {
-    max-width: 50%;
+    max-width: 50%; 
     height: auto;
 }
 
@@ -58,49 +58,51 @@ html {
 }
 
 .footer-background {
-    width: 50%;
-    height: 100%;
+    width: 100%; /* Ajusta la imagen para cubrir completamente el área */
+    height: 120%; /* Aumenta la altura de la imagen inferior */
     object-fit: cover; /* Ajusta la imagen para cubrir completamente el área */
 }
 
 .title {
-    font-size: 2.5em;
+    font-size: 3em; /* Aumenta el tamaño del título */
     font-weight: bold;
     margin-bottom: 20px;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
 }
 
 .login-heading {
-    font-size: 1.5em;
-    margin-bottom: 10px;
+    font-size: 2em; /* Aumenta el tamaño del encabezado de inicio de sesión */
+    margin-bottom: 20px; /* Aumenta el espacio debajo del encabezado */
 }
 
 .login-form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%; /* Asegura que el formulario ocupe todo el ancho disponible */
 }
 
 .form-label {
-    font-size: 1.1em;
+    font-size: 1.3em; /* Aumenta el tamaño de la fuente de las etiquetas del formulario */
     margin-bottom: 5px;
 }
 
 .form-input {
-    width: 80%;
-    padding: 10px;
+    font-size: 1.2em; /* Aumenta el tamaño de la fuente de las entradas del formulario */
+    width: 90%; /* Aumenta el ancho de las entradas del formulario */
+    padding: 15px;
     border: none;
     border-radius: 4px;
-    margin-bottom: 15px;
+    margin-bottom: 20px; /* Aumenta el espacio debajo de las entradas */
 }
 
 .login-button {
     background-color: #FFFFFF;
     color: #4A708B;
-    padding: 10px 20px;
+    padding: 15px 30px; /* Incrementa el relleno del botón */
     border: none;
     border-radius: 4px;
-    font-size: 1em;
+    font-size: 1.2em; /* Aumenta el tamaño de la fuente del botón */
     font-weight: bold;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
     cursor: pointer;
