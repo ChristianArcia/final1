@@ -1,114 +1,88 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    font-family: 'Roboto', sans-serif; /* Fuente Roboto */
-    margin: 0;
-    padding: 0;
-    height: 100%;
-}
-
-html {
-    height: 100%;
+    font-family: 'Roboto', sans-serif; 
+    background-color: #f0f0f0; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
 }
 
 .container {
     display: flex;
-    min-height: calc(100vh - 15vh); /* Resta altura de la franja de imagen */
-}
-
-.left-section {
-    background-color: #4A708B; /* Azul mate */
-    color: white;
-    width: 45%; /* Aumenta el ancho de la sección izquierda */
-    min-height: calc(100vh - 15vh); /* Cubre página menos la imagen de la franja */
-    padding: 70px; /* Incrementa el tamaño del formulario */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; /* Centra el formulario a la izquierda */
-}
-
-.right-section {
-    background-color: white;
-    width: 55%; /* Reduce el ancho de la sección derecha */
-    padding: 40px; /* Similar al tamaño del formulario */
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: auto;
+    height: 100%;
 }
 
-.medium-image {
-    max-width: 50%; 
-    height: auto;
-}
-
-.footer {
+.login-box {
+    background-color: #ffffff;
+    padding: 40px 50px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     text-align: center;
-    padding: 0;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 15vh; /* Altura de la franja de imagen */
-    overflow: hidden; /* Asegurar que la imagen no exceda el área */
-}
-
-.footer-background {
-    width: 100%; /* Ajusta la imagen para cubrir completamente el área */
-    height: 120%; /* Aumenta la altura de la imagen inferior */
-    object-fit: cover; /* Ajusta la imagen para cubrir completamente el área */
 }
 
 .title {
-    font-size: 4em; /* Aumenta aún más el tamaño del título */
+    font-size: 3em;
     font-weight: bold;
+    color: #4A708B;
     margin-bottom: 20px;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
 }
 
 .login-heading {
-    font-size: 3em; /* Aumenta más el tamaño del encabezado de inicio de sesión */
-    margin-bottom: 20px; /* Aumenta el espacio debajo del encabezado */
+    font-size: 1.8em;
+    margin-bottom: 30px;
+    color: #4A708B;
 }
 
 .login-form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%; /* Asegura que el formulario ocupe todo el ancho disponible */
 }
 
 .form-label {
-    font-size: 1.8em; /* Aumenta más el tamaño de la fuente de las etiquetas del formulario */
-    margin-bottom: 5px;
+    font-size: 1.1em;
+    color: #4A708B;
+    margin-bottom: 10px;
+    align-self: flex-start;
 }
 
 .form-input {
-    font-size: 1.8em; /* Aumenta más el tamaño de la fuente de las entradas del formulario */
-    width: 90%; /* Aumenta el ancho de las entradas del formulario */
-    padding: 25px; /* Incrementa el relleno de las entradas */
-    border: none;
-    border-radius: 4px;
-    margin-bottom: 25px; /* Aumenta el espacio debajo de las entradas */
+    font-size: 1.2em;
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.form-input:focus {
+    border-color: #4A708B;
+    box-shadow: 0 0 5px rgba(74, 112, 139, 0.5);
+    outline: none;
 }
 
 .login-button {
-    background-color: #FFFFFF;
-    color: #4A708B;
-    padding: 25px 50px; /* Incrementa el relleno del botón */
-    border: none;
-    border-radius: 4px;
-    font-size: 2em; /* Aumenta más el tamaño de la fuente del botón */
+    font-size: 1.3em;
     font-weight: bold;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4A708B;
+    color: #ffffff;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .login-button:hover {
-    background-color: #F0F0F0;
+    background-color: #375a7f;
+    transform: translateY(-2px);
 }
